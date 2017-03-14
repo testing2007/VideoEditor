@@ -1,0 +1,14 @@
+pre_echo_control.lo: aacenc/src/pre_echo_control.c \
+  aacenc/basic_op/basic_op.h aacenc/basic_op/typedef.h \
+  aacenc/basic_op/typedefs.h aacenc/basic_op/oper_32b.h \
+  aacenc/inc/pre_echo_control.h
+
+aacenc/basic_op/basic_op.h:
+
+aacenc/basic_op/typedef.h:
+
+aacenc/basic_op/typedefs.h:
+
+aacenc/basic_op/oper_32b.h:
+
+aacenc/inc/pre_echo_control.h:

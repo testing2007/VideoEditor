@@ -1,0 +1,22 @@
+transform.lo: aacenc/src/transform.c aacenc/basic_op/basic_op.h \
+  aacenc/basic_op/typedef.h aacenc/basic_op/typedefs.h \
+  aacenc/inc/psy_const.h aacenc/inc/config.h aacenc/inc/transform.h \
+  aacenc/inc/aac_rom.h aacenc/inc/tns_param.h aacenc/inc/tns.h
+
+aacenc/basic_op/basic_op.h:
+
+aacenc/basic_op/typedef.h:
+
+aacenc/basic_op/typedefs.h:
+
+aacenc/inc/psy_const.h:
+
+aacenc/inc/config.h:
+
+aacenc/inc/transform.h:
+
+aacenc/inc/aac_rom.h:
+
+aacenc/inc/tns_param.h:
+
+aacenc/inc/tns.h:

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter ID="ZOOMBLUR" name="移焦" filterType="ZOOMBLUR" percentage="20" >
+	<attachment/>
+</filter>

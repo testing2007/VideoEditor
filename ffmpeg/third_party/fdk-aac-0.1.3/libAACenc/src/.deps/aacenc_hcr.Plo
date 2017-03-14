@@ -1,0 +1,4 @@
+libAACenc/src/aacenc_hcr.lo: libAACenc/src/aacenc_hcr.cpp \
+  libAACenc/src/aacenc_hcr.h
+
+libAACenc/src/aacenc_hcr.h:

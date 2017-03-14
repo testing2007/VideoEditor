@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:VideoEditorApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:base/../captureAudio/captureAudio.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:convertCode/convertCode.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:feinnoVideo/feinnoVideo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:soundtouch/soundTouch.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:synthesis/synthesis.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:codec/codec.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:base/base.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:speex/speex.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

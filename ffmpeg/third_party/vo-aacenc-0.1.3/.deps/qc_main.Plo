@@ -1,0 +1,62 @@
+qc_main.lo: aacenc/src/qc_main.c aacenc/basic_op/basic_op.h \
+  aacenc/basic_op/typedef.h aacenc/basic_op/typedefs.h \
+  aacenc/basic_op/oper_32b.h aacenc/inc/qc_main.h aacenc/inc/qc_data.h \
+  aacenc/inc/psy_const.h aacenc/inc/config.h aacenc/inc/dyn_bits.h \
+  aacenc/inc/tns.h aacenc/inc/bit_cnt.h aacenc/inc/bitbuffer.h \
+  aacenc/inc/adj_thr_data.h aacenc/inc/line_pe.h aacenc/inc/interface.h \
+  aacenc/inc/psy_data.h aacenc/inc/block_switch.h aacenc/inc/memalign.h \
+  common/include/voMem.h common/include/voIndex.h \
+  common/include/voType.h aacenc/inc/quantize.h aacenc/inc/adj_thr.h \
+  aacenc/inc/sf_estim.h aacenc/inc/stat_bits.h aacenc/inc/channel_map.h
+
+aacenc/basic_op/basic_op.h:
+
+aacenc/basic_op/typedef.h:
+
+aacenc/basic_op/typedefs.h:
+
+aacenc/basic_op/oper_32b.h:
+
+aacenc/inc/qc_main.h:
+
+aacenc/inc/qc_data.h:
+
+aacenc/inc/psy_const.h:
+
+aacenc/inc/config.h:
+
+aacenc/inc/dyn_bits.h:
+
+aacenc/inc/tns.h:
+
+aacenc/inc/bit_cnt.h:
+
+aacenc/inc/bitbuffer.h:
+
+aacenc/inc/adj_thr_data.h:
+
+aacenc/inc/line_pe.h:
+
+aacenc/inc/interface.h:
+
+aacenc/inc/psy_data.h:
+
+aacenc/inc/block_switch.h:
+
+aacenc/inc/memalign.h:
+
+common/include/voMem.h:
+
+common/include/voIndex.h:
+
+common/include/voType.h:
+
+aacenc/inc/quantize.h:
+
+aacenc/inc/adj_thr.h:
+
+aacenc/inc/sf_estim.h:
+
+aacenc/inc/stat_bits.h:
+
+aacenc/inc/channel_map.h:

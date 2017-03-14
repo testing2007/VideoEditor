@@ -1,0 +1,25 @@
+bit_cnt.lo: aacenc/src/bit_cnt.c aacenc/inc/bit_cnt.h \
+  aacenc/inc/bitbuffer.h aacenc/basic_op/typedef.h \
+  aacenc/basic_op/typedefs.h aacenc/basic_op/basic_op.h \
+  aacenc/inc/aac_rom.h aacenc/inc/config.h aacenc/inc/psy_const.h \
+  aacenc/inc/tns_param.h aacenc/inc/tns.h
+
+aacenc/inc/bit_cnt.h:
+
+aacenc/inc/bitbuffer.h:
+
+aacenc/basic_op/typedef.h:
+
+aacenc/basic_op/typedefs.h:
+
+aacenc/basic_op/basic_op.h:
+
+aacenc/inc/aac_rom.h:
+
+aacenc/inc/config.h:
+
+aacenc/inc/psy_const.h:
+
+aacenc/inc/tns_param.h:
+
+aacenc/inc/tns.h:

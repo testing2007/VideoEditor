@@ -1,0 +1,70 @@
+psy_main.lo: aacenc/src/psy_main.c aacenc/basic_op/typedef.h \
+  aacenc/basic_op/typedefs.h aacenc/basic_op/basic_op.h \
+  aacenc/basic_op/oper_32b.h aacenc/inc/psy_const.h aacenc/inc/config.h \
+  aacenc/inc/block_switch.h aacenc/inc/transform.h \
+  aacenc/inc/spreading.h aacenc/inc/pre_echo_control.h \
+  aacenc/inc/band_nrg.h aacenc/inc/psy_configuration.h aacenc/inc/tns.h \
+  aacenc/inc/psy_data.h aacenc/inc/ms_stereo.h aacenc/inc/interface.h \
+  aacenc/inc/psy_main.h aacenc/inc/qc_data.h aacenc/inc/dyn_bits.h \
+  aacenc/inc/bit_cnt.h aacenc/inc/bitbuffer.h aacenc/inc/adj_thr_data.h \
+  aacenc/inc/line_pe.h aacenc/inc/memalign.h common/include/voMem.h \
+  common/include/voIndex.h common/include/voType.h aacenc/inc/grp_data.h \
+  aacenc/inc/tns_func.h
+
+aacenc/basic_op/typedef.h:
+
+aacenc/basic_op/typedefs.h:
+
+aacenc/basic_op/basic_op.h:
+
+aacenc/basic_op/oper_32b.h:
+
+aacenc/inc/psy_const.h:
+
+aacenc/inc/config.h:
+
+aacenc/inc/block_switch.h:
+
+aacenc/inc/transform.h:
+
+aacenc/inc/spreading.h:
+
+aacenc/inc/pre_echo_control.h:
+
+aacenc/inc/band_nrg.h:
+
+aacenc/inc/psy_configuration.h:
+
+aacenc/inc/tns.h:
+
+aacenc/inc/psy_data.h:
+
+aacenc/inc/ms_stereo.h:
+
+aacenc/inc/interface.h:
+
+aacenc/inc/psy_main.h:
+
+aacenc/inc/qc_data.h:
+
+aacenc/inc/dyn_bits.h:
+
+aacenc/inc/bit_cnt.h:
+
+aacenc/inc/bitbuffer.h:
+
+aacenc/inc/adj_thr_data.h:
+
+aacenc/inc/line_pe.h:
+
+aacenc/inc/memalign.h:
+
+common/include/voMem.h:
+
+common/include/voIndex.h:
+
+common/include/voType.h:
+
+aacenc/inc/grp_data.h:
+
+aacenc/inc/tns_func.h:

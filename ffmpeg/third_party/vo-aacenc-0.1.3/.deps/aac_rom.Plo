@@ -1,0 +1,17 @@
+aac_rom.lo: aacenc/src/aac_rom.c aacenc/inc/aac_rom.h aacenc/inc/config.h \
+  aacenc/inc/psy_const.h aacenc/inc/tns_param.h aacenc/inc/tns.h \
+  aacenc/basic_op/typedef.h aacenc/basic_op/typedefs.h
+
+aacenc/inc/aac_rom.h:
+
+aacenc/inc/config.h:
+
+aacenc/inc/psy_const.h:
+
+aacenc/inc/tns_param.h:
+
+aacenc/inc/tns.h:
+
+aacenc/basic_op/typedef.h:
+
+aacenc/basic_op/typedefs.h:

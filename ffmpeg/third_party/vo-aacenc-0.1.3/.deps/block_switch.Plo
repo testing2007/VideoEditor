@@ -1,0 +1,18 @@
+block_switch.lo: aacenc/src/block_switch.c aacenc/basic_op/typedef.h \
+  aacenc/basic_op/typedefs.h aacenc/basic_op/basic_op.h \
+  aacenc/basic_op/oper_32b.h aacenc/inc/psy_const.h aacenc/inc/config.h \
+  aacenc/inc/block_switch.h
+
+aacenc/basic_op/typedef.h:
+
+aacenc/basic_op/typedefs.h:
+
+aacenc/basic_op/basic_op.h:
+
+aacenc/basic_op/oper_32b.h:
+
+aacenc/inc/psy_const.h:
+
+aacenc/inc/config.h:
+
+aacenc/inc/block_switch.h:

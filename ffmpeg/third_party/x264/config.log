@@ -1,0 +1,204 @@
+checking for -Werror=unknown-warning-option... yes
+checking for -mdynamic-no-pic... yes
+x264 configure script
+Command line options: "--prefix=/Users/zhiqiangwei/Documents/workspace/ffmpeg/third_party/../output/lib_x264/armv7" "--disable-asm" "--enable-static" "--host=armv7-apple-darwin" "--with-sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk"
+
+checking whether /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang works... yes
+checking whether /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang supports for( int i = 0; i < 9; i++ ); with -std=gnu99... yes
+checking for pthread_create(0,0,0,0); in pthread.h... yes
+checking for return log2f(2); in math.h... yes
+checking whether defined(MAP_PRIVATE) is true... yes
+checking for sws_init_context(0,0,0); in libswscale/swscale.h... no
+Failed commandline was:
+--------------------------------------------------
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang conftest.c -miphoneos-version-min=10.2 -arch armv7 -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include -Wall -I. -I$(SRCPATH) -mdynamic-no-pic -std=gnu99 -D_GNU_SOURCE  -Werror=unknown-warning-option  -lswscale -lavutil  -miphoneos-version-min=10.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -lm -lpthread -o conftest
+conftest.c:1:10: fatal error: 'libswscale/swscale.h' file not found
+#include <libswscale/swscale.h>
+         ^
+1 error generated.
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+#include <libswscale/swscale.h>
+int main (void) { sws_init_context(0,0,0); return 0; }
+--------------------------------------------------
+checking for -lpostproc... no
+Failed commandline was:
+--------------------------------------------------
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang conftest.c -miphoneos-version-min=10.2 -arch armv7 -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include -Wall -I. -I$(SRCPATH) -mdynamic-no-pic -std=gnu99 -D_GNU_SOURCE  -Werror=unknown-warning-option -lpostproc  -miphoneos-version-min=10.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -lm -lpthread -o conftest
+ld: library not found for -lpostproc
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for -lavcodec... no
+Failed commandline was:
+--------------------------------------------------
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang conftest.c -miphoneos-version-min=10.2 -arch armv7 -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include -Wall -I. -I$(SRCPATH) -mdynamic-no-pic -std=gnu99 -D_GNU_SOURCE  -Werror=unknown-warning-option -lavcodec  -miphoneos-version-min=10.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -lm -lpthread -o conftest
+ld: library not found for -lavcodec
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for -lswscale... no
+Failed commandline was:
+--------------------------------------------------
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang conftest.c -miphoneos-version-min=10.2 -arch armv7 -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include -Wall -I. -I$(SRCPATH) -mdynamic-no-pic -std=gnu99 -D_GNU_SOURCE  -Werror=unknown-warning-option -lswscale  -miphoneos-version-min=10.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -lm -lpthread -o conftest
+ld: library not found for -lswscale
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for -lavutil... no
+Failed commandline was:
+--------------------------------------------------
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang conftest.c -miphoneos-version-min=10.2 -arch armv7 -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include -Wall -I. -I$(SRCPATH) -mdynamic-no-pic -std=gnu99 -D_GNU_SOURCE  -Werror=unknown-warning-option -lavutil  -miphoneos-version-min=10.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -lm -lpthread -o conftest
+ld: library not found for -lavutil
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for -lm... yes
+checking for -lz... yes
+checking for -lbz2... yes
+checking for -lpthread... yes
+checking for -lavifil32... no
+Failed commandline was:
+--------------------------------------------------
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang conftest.c -miphoneos-version-min=10.2 -arch armv7 -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include -Wall -I. -I$(SRCPATH) -mdynamic-no-pic -std=gnu99 -D_GNU_SOURCE  -Werror=unknown-warning-option -lavifil32  -miphoneos-version-min=10.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -lm -lpthread -o conftest
+ld: library not found for -lavifil32
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for -lws2_32... no
+Failed commandline was:
+--------------------------------------------------
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang conftest.c -miphoneos-version-min=10.2 -arch armv7 -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include -Wall -I. -I$(SRCPATH) -mdynamic-no-pic -std=gnu99 -D_GNU_SOURCE  -Werror=unknown-warning-option -lws2_32  -miphoneos-version-min=10.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -lm -lpthread -o conftest
+ld: library not found for -lws2_32
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for av_frame_free(0); in libavformat/avformat.h... no
+Failed commandline was:
+--------------------------------------------------
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang conftest.c -miphoneos-version-min=10.2 -arch armv7 -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include -Wall -I. -I$(SRCPATH) -mdynamic-no-pic -std=gnu99 -D_GNU_SOURCE  -Werror=unknown-warning-option  -L. -lavformat -lm -lz -lbz2 -lpthread  -miphoneos-version-min=10.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -lm -lpthread -o conftest
+conftest.c:1:10: fatal error: 'libavformat/avformat.h' file not found
+#include <libavformat/avformat.h>
+         ^
+1 error generated.
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+#include <libavformat/avformat.h>
+int main (void) { av_frame_free(0); return 0; }
+--------------------------------------------------
+checking for FFMS_DestroyVideoSource(0); in ffms.h... no
+Failed commandline was:
+--------------------------------------------------
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang conftest.c -miphoneos-version-min=10.2 -arch armv7 -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include -Wall -I. -I$(SRCPATH) -mdynamic-no-pic -std=gnu99 -D_GNU_SOURCE  -Werror=unknown-warning-option  -lffms2  -miphoneos-version-min=10.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -lm -lpthread -o conftest
+conftest.c:1:10: fatal error: 'ffms.h' file not found
+#include <ffms.h>
+         ^
+1 error generated.
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+#include <ffms.h>
+int main (void) { FFMS_DestroyVideoSource(0); return 0; }
+--------------------------------------------------
+checking for FFMS_DestroyVideoSource(0); in ffms.h... no
+Failed commandline was:
+--------------------------------------------------
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang conftest.c -miphoneos-version-min=10.2 -arch armv7 -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include -Wall -I. -I$(SRCPATH) -mdynamic-no-pic -std=gnu99 -D_GNU_SOURCE  -Werror=unknown-warning-option  -lffms2 -lstdc++ -L. -lavformat -lm -lz -lbz2 -lpthread  -miphoneos-version-min=10.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -lm -lpthread -o conftest
+conftest.c:1:10: fatal error: 'ffms.h' file not found
+#include <ffms.h>
+         ^
+1 error generated.
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+#include <ffms.h>
+int main (void) { FFMS_DestroyVideoSource(0); return 0; }
+--------------------------------------------------
+checking for lsmash.h... no
+Failed commandline was:
+--------------------------------------------------
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang conftest.c -miphoneos-version-min=10.2 -arch armv7 -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include -Wall -I. -I$(SRCPATH) -mdynamic-no-pic -std=gnu99 -D_GNU_SOURCE  -Werror=unknown-warning-option  -llsmash  -miphoneos-version-min=10.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -lm -lpthread -o conftest
+conftest.c:1:10: fatal error: 'lsmash.h' file not found
+#include <lsmash.h>
+         ^
+1 error generated.
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+#include <lsmash.h>
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for -lz... yes
+checking for gpac/isomedia.h... no
+Failed commandline was:
+--------------------------------------------------
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang conftest.c -miphoneos-version-min=10.2 -arch armv7 -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include -Wall -I. -I$(SRCPATH) -mdynamic-no-pic -std=gnu99 -D_GNU_SOURCE  -Werror=unknown-warning-option -lgpac_static -lz  -miphoneos-version-min=10.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -lm -lpthread -o conftest
+conftest.c:1:10: fatal error: 'gpac/isomedia.h' file not found
+#include <gpac/isomedia.h>
+         ^
+1 error generated.
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+#include <gpac/isomedia.h>
+int main (void) {  return 0; }
+--------------------------------------------------
+checking for uint32_t test_vec __attribute__ ((vector_size (16))) = {0,1,2,3}; in stdint.h... yes
+checking for -fno-tree-vectorize... yes
+checking for fseeko(stdin,0,0); in stdio.h... yes
+checking for -Wshadow... yes
+checking for -Wmaybe-uninitialized... no
+Failed commandline was:
+--------------------------------------------------
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang conftest.c -Wshadow -O3 -ffast-math -miphoneos-version-min=10.2 -arch armv7 -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include -Wall -I. -I$(SRCPATH) -mdynamic-no-pic -std=gnu99 -D_GNU_SOURCE -fomit-frame-pointer -fno-tree-vectorize  -Werror=unknown-warning-option -Wmaybe-uninitialized -ldl  -miphoneos-version-min=10.2 -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -lm -lpthread -o conftest
+error: unknown warning option '-Wmaybe-uninitialized'; did you mean '-Wuninitialized'? [-Werror,-Wunknown-warning-option]
+--------------------------------------------------
+Failed program was:
+--------------------------------------------------
+int main (void) {  return 0; }
+--------------------------------------------------
+
+platform:      ARM
+byte order:    little-endian
+system:        MACOSX
+cli:           yes
+libx264:       internal
+shared:        no
+static:        yes
+asm:           no
+interlaced:    yes
+avs:           avxsynth
+lavf:          no
+ffms:          no
+mp4:           no
+gpl:           yes
+thread:        posix
+opencl:        yes
+filters:       crop select_every 
+lto:           no
+debug:         no
+gprof:         no
+strip:         no
+PIC:           no
+bit depth:     8
+chroma format: all

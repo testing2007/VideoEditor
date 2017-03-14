@@ -1,0 +1,11 @@
+prefix=/Users/zhiqiangwei/Documents/workspace/ffmpeg/third_party/../output/lib_fdkaac/armv7
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Fraunhofer FDK AAC Codec Library
+Description: AAC codec library
+Version: 0.1.3
+Libs: -L${libdir} -lfdk-aac 
+Libs.private: -lm -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/lib
+Cflags: -I${includedir}

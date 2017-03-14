@@ -1,0 +1,48 @@
+sf_estim.lo: aacenc/src/sf_estim.c aacenc/basic_op/basic_op.h \
+  aacenc/basic_op/typedef.h aacenc/basic_op/typedefs.h \
+  aacenc/basic_op/oper_32b.h aacenc/inc/sf_estim.h \
+  aacenc/inc/psy_const.h aacenc/inc/config.h aacenc/inc/interface.h \
+  aacenc/inc/psy_data.h aacenc/inc/block_switch.h aacenc/inc/tns.h \
+  aacenc/inc/qc_data.h aacenc/inc/dyn_bits.h aacenc/inc/bit_cnt.h \
+  aacenc/inc/bitbuffer.h aacenc/inc/adj_thr_data.h aacenc/inc/line_pe.h \
+  aacenc/inc/quantize.h aacenc/inc/aac_rom.h aacenc/inc/tns_param.h
+
+aacenc/basic_op/basic_op.h:
+
+aacenc/basic_op/typedef.h:
+
+aacenc/basic_op/typedefs.h:
+
+aacenc/basic_op/oper_32b.h:
+
+aacenc/inc/sf_estim.h:
+
+aacenc/inc/psy_const.h:
+
+aacenc/inc/config.h:
+
+aacenc/inc/interface.h:
+
+aacenc/inc/psy_data.h:
+
+aacenc/inc/block_switch.h:
+
+aacenc/inc/tns.h:
+
+aacenc/inc/qc_data.h:
+
+aacenc/inc/dyn_bits.h:
+
+aacenc/inc/bit_cnt.h:
+
+aacenc/inc/bitbuffer.h:
+
+aacenc/inc/adj_thr_data.h:
+
+aacenc/inc/line_pe.h:
+
+aacenc/inc/quantize.h:
+
+aacenc/inc/aac_rom.h:
+
+aacenc/inc/tns_param.h:

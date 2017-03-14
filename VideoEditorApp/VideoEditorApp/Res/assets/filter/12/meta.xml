@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<filter ID="SOBEL_EDGE_DETECTION" name="SOBEL_EDGE_DETECTION" filterType="SOBEL_EDGE_DETECTION" percentage="10">
+	<attachment/>
+</filter>

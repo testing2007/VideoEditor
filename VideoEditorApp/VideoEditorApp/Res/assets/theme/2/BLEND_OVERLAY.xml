@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<filter ID="BLEND_OVERLAY" name="叠加" filterType="BLEND_OVERLAY" percentage="50">
+	<attachment/>
+</filter>

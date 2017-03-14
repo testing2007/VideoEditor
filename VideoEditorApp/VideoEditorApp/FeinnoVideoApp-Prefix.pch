@@ -1,0 +1,26 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#include <GPUImage.h>
+
+//定义log级别，2~8，2 输出所有信息，从2开始因为安卓
+#define F_AUDIO_LOG_LEVEL 4
+
+//定义该宏屏蔽libav，即不编译使用libav的部分
+#define __CANNOT_USE_LIBAV__
+
+#define ST_NO_EXCEPTION_HANDLING

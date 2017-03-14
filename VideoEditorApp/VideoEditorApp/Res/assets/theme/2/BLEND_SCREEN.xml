@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<filter ID="BLEND_SCREEN" name="BLEND_SCREEN" filterType="BLEND_SCREEN" percentage="50">
+	<attachment/>
+</filter>

@@ -1,0 +1,41 @@
+bitenc.lo: aacenc/src/bitenc.c aacenc/inc/bitenc.h aacenc/inc/qc_data.h \
+  aacenc/inc/psy_const.h aacenc/inc/config.h aacenc/inc/dyn_bits.h \
+  aacenc/inc/tns.h aacenc/basic_op/typedef.h aacenc/basic_op/typedefs.h \
+  aacenc/inc/bit_cnt.h aacenc/inc/bitbuffer.h aacenc/basic_op/basic_op.h \
+  aacenc/inc/adj_thr_data.h aacenc/inc/line_pe.h aacenc/inc/interface.h \
+  aacenc/inc/psy_data.h aacenc/inc/block_switch.h \
+  aacenc/inc/channel_map.h
+
+aacenc/inc/bitenc.h:
+
+aacenc/inc/qc_data.h:
+
+aacenc/inc/psy_const.h:
+
+aacenc/inc/config.h:
+
+aacenc/inc/dyn_bits.h:
+
+aacenc/inc/tns.h:
+
+aacenc/basic_op/typedef.h:
+
+aacenc/basic_op/typedefs.h:
+
+aacenc/inc/bit_cnt.h:
+
+aacenc/inc/bitbuffer.h:
+
+aacenc/basic_op/basic_op.h:
+
+aacenc/inc/adj_thr_data.h:
+
+aacenc/inc/line_pe.h:
+
+aacenc/inc/interface.h:
+
+aacenc/inc/psy_data.h:
+
+aacenc/inc/block_switch.h:
+
+aacenc/inc/channel_map.h:

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<filter ID="BLEND_DARKEN" name="BLEND_DARKEN" filterType="BLEND_DARKEN" percentage="50">
+	<attachment/>
+</filter>

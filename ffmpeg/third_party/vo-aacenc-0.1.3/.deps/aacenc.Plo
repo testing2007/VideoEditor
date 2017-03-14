@@ -1,0 +1,73 @@
+aacenc.lo: aacenc/src/aacenc.c common/include/voAAC.h \
+  common/include/voAudio.h common/include/voIndex.h \
+  common/include/voType.h common/include/voMem.h \
+  aacenc/basic_op/typedef.h aacenc/basic_op/typedefs.h \
+  aacenc/inc/aacenc_core.h aacenc/inc/config.h aacenc/inc/bitenc.h \
+  aacenc/inc/qc_data.h aacenc/inc/psy_const.h aacenc/inc/dyn_bits.h \
+  aacenc/inc/tns.h aacenc/inc/bit_cnt.h aacenc/inc/bitbuffer.h \
+  aacenc/basic_op/basic_op.h aacenc/inc/adj_thr_data.h \
+  aacenc/inc/line_pe.h aacenc/inc/interface.h aacenc/inc/psy_data.h \
+  aacenc/inc/block_switch.h aacenc/inc/channel_map.h \
+  aacenc/inc/psy_configuration.h aacenc/inc/psy_main.h \
+  aacenc/inc/memalign.h aacenc/inc/qc_main.h aacenc/inc/aac_rom.h \
+  aacenc/inc/tns_param.h common/include/cmnMemory.h
+
+common/include/voAAC.h:
+
+common/include/voAudio.h:
+
+common/include/voIndex.h:
+
+common/include/voType.h:
+
+common/include/voMem.h:
+
+aacenc/basic_op/typedef.h:
+
+aacenc/basic_op/typedefs.h:
+
+aacenc/inc/aacenc_core.h:
+
+aacenc/inc/config.h:
+
+aacenc/inc/bitenc.h:
+
+aacenc/inc/qc_data.h:
+
+aacenc/inc/psy_const.h:
+
+aacenc/inc/dyn_bits.h:
+
+aacenc/inc/tns.h:
+
+aacenc/inc/bit_cnt.h:
+
+aacenc/inc/bitbuffer.h:
+
+aacenc/basic_op/basic_op.h:
+
+aacenc/inc/adj_thr_data.h:
+
+aacenc/inc/line_pe.h:
+
+aacenc/inc/interface.h:
+
+aacenc/inc/psy_data.h:
+
+aacenc/inc/block_switch.h:
+
+aacenc/inc/channel_map.h:
+
+aacenc/inc/psy_configuration.h:
+
+aacenc/inc/psy_main.h:
+
+aacenc/inc/memalign.h:
+
+aacenc/inc/qc_main.h:
+
+aacenc/inc/aac_rom.h:
+
+aacenc/inc/tns_param.h:
+
+common/include/cmnMemory.h:

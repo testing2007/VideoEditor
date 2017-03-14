@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RootNode totalframe="250" framerate="25" framesize="480-480" >
+	<VideoTrack>
+		<MediaNode name="音乐达人" id="music-master" MediaType="1" totalframe="250" In="0" Out="250" >
+			<FilterNode name="BLEND_DARKEN" FilterID="BLEND_DARKEN" totalframe="250" In="0" Out="250" attachType="VIDEO">
+				<attachment file="music-master-480-480.mp4" />
+			</FilterNode>
+		</MediaNode>
+	</VideoTrack>
+	<AudioTrack>
+		<AudioNode name="TestAudio1" id=""  AudioType="1" totalframe="250" In="0" Out="250" >
+			<attachment file="music-master.mp4" />
+		</AudioNode>
+	</AudioTrack>
+</RootNode>
+

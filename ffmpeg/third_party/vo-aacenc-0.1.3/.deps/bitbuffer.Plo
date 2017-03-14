@@ -1,0 +1,8 @@
+bitbuffer.lo: aacenc/src/bitbuffer.c aacenc/inc/bitbuffer.h \
+  aacenc/basic_op/typedef.h aacenc/basic_op/typedefs.h
+
+aacenc/inc/bitbuffer.h:
+
+aacenc/basic_op/typedef.h:
+
+aacenc/basic_op/typedefs.h:

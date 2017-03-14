@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter ID="TOON" name="漫画" filterType="TOON" percentage="30" >
+	<attachment/>
+</filter>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<root_node>
+    <theme_node  type = 1 name="主题">
+        <item  id=0 name="无主题" image=""></item>
+        <item  id=1 name="梦境" image="icon.png"></item>
+        <item  id=3 name="飘雪" image="icon.png"></item>
+        <item  id=2 name="阳光" image="icon.png"></item>
+        <item  id=5 name="音乐达人" image="icon.png"></item>
+        <item  id=8 name="怀旧" image="icon.png"></item>
+        <item  id=9 name="老电影" image="icon.png"></item>
+        <item  id=10 name="雨" image="icon.png"></item>
+    </theme_node>
+    
+    <filter_node type=2 name="滤镜">
+        <item  id=0 name="无滤镜" image="icon.png"></item>
+        <item  id=3 name="淡雅" image="icon.png"></item>
+        <item  id=11 name="重彩" image="icon.png"></item>
+        <item  id=6 name="美白" image="icon.png"></item>
+        <item  id=7 name="聚焦" image="icon.png"></item>
+        <item  id=2 name="黑白" image="icon.png"></item>
+        <item  id=8 name="浮雕" image="icon.png"></item>
+        <item  id=12 name="描边" image="icon.png"></item>
+        <item  id=1 name="漫画" image="icon.png"></item>
+        <item  id=4 name="移焦" image="icon.png"></item>
+    </filter_node>
+    
+    <bgmusic_node type=3 name="配乐">
+        <item  id=0 name="无音乐" image="icon.png"></item>
+        <item  id=1 name="a.mp3" image="icon.png"></item>
+        <item  id=2 name="b.mp3" image="icon.png"></item>
+        <item  id=3 name="c.mp3" image="icon.png"></item>
+        <item  id=4 name="d.mp3" image="icon.png"></item>
+        <item  id=5 name="e.mp3" image="icon.png"></item>
+        <item  id=6 name="f.mp3" image="icon.png"></item>
+        <item  id=7 name="g.mp3" image="icon.png"></item>
+        <item  id=8 name="h.mp3" image="icon.png"></item>
+        <item  id=9 name="i.mp3" image="icon.png"></item>
+    </bgmusic_node>
+
+    <frame type=4 name="边框">
+        <item  id=0 name="无边框" image="icon.png" bigImage="frame.png"></item>
+        <item  id=1 name="蓝色枫叶" image="icon.png" bigImage="frame.png"></item>
+        <item  id=2 name="传情" image="icon.png" bigImage="frame.png"></item>
+        <item  id=3 name="橘色梦幻" image="icon.png" bigImage="frame.png"></item>
+        <item  id=4 name="粉色奥运" image="icon.png" bigImage="frame.png"></item>
+        <item  id=5 name="复古阿狸" image="icon.png" bigImage="frame.png"></item>
+        <item  id=6 name="酷炫红色" image="icon.png" bigImage="frame.png"></item>
+        <item  id=7 name="五彩世界" image="icon.png" bigImage="frame.png"></item>
+    </frame>
+
+    <cartoon  type=5 name="动画">
+        <item id=0 name="无动画" image="icon.png" bigImage="frame.png"></item>
+        <item  id=1 name="草莓帽子" image="icon.png" bigImage="frame.png"></item>
+        <item  id=2 name="阿拉蕾眼镜" image="icon.png" bigImage="frame.png"></item>
+        <item  id=3 name="2小" image="icon.png" bigImage="frame.png"></item>
+        <item  id=4 name="锤子" image="icon.png" bigImage="frame.png"></item>
+        <item  id=5 name="loveyou" image="icon.png" bigImage="frame.png"></item>
+        <item  id=6 name="太阳" image="icon.png" bigImage="frame.png"></item>
+        <item  id=7 name="kiss" image="icon.png" bigImage="frame.png"></item>
+        <item  id=8 name="猫鱼" image="icon.png" bigImage="frame.png"></item>
+        <item  id=9 name="灰起来" image="icon.png" bigImage="frame.png"></item>
+        <item  id=10 name="兔子" image="icon.png" bigImage="frame.png"></item>
+    </cartoon>
+</root_node>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<filter ID="GRAYSCALE" name="GRAYSCALE" filterType="GRAYSCALE" percentage="50">
+	<attachment/>
+</filter>

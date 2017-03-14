@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<filter ID="Vignette" name="聚焦" filterType="VIGNETTE" percentage="0">
+	<attachment/>
+</filter>

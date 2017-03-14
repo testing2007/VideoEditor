@@ -1,0 +1,5 @@
+platform :ios, '10.2'
+target 'VideoEditorApp' do
+pod 'GPUImage', '~> 0.1.7'
+pod 'ZipArchive', '~> 1.4.0'
+end

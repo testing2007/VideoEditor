@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter ID="Monochrome" name="怀旧" filterType="MONOCHROME" percentage="100">
+	<attachment/>
+</filter>

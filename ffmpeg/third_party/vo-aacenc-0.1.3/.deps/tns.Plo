@@ -1,0 +1,40 @@
+tns.lo: aacenc/src/tns.c aacenc/basic_op/basic_op.h \
+  aacenc/basic_op/typedef.h aacenc/basic_op/typedefs.h \
+  aacenc/basic_op/oper_32b.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/assert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/sys/cdefs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/sys/_posix_availability.h \
+  aacenc/inc/aac_rom.h aacenc/inc/config.h aacenc/inc/psy_const.h \
+  aacenc/inc/tns_param.h aacenc/inc/tns.h aacenc/inc/psy_configuration.h \
+  aacenc/inc/tns_func.h
+
+aacenc/basic_op/basic_op.h:
+
+aacenc/basic_op/typedef.h:
+
+aacenc/basic_op/typedefs.h:
+
+aacenc/basic_op/oper_32b.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/assert.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/sys/cdefs.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/sys/_symbol_aliasing.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/sys/_posix_availability.h:
+
+aacenc/inc/aac_rom.h:
+
+aacenc/inc/config.h:
+
+aacenc/inc/psy_const.h:
+
+aacenc/inc/tns_param.h:
+
+aacenc/inc/tns.h:
+
+aacenc/inc/psy_configuration.h:
+
+aacenc/inc/tns_func.h:
