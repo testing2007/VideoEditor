@@ -4,7 +4,9 @@
   VERSION=“2.0.2”==》指代ffmpeg的版本，
   SDKVERSION="10.2"==》指代xcode skd的版本.
   最后编译生成的文件存放在output文件夹里面。
+  
+2:该程序没有做界面适配，请使用iphone 5s 模拟器或设备上进行播放。
 
-2:效果如图所示
+3:效果如图所示
 
 ![image](https://github.com/testing2007/VideoEditor/blob/master/screenshot/1.png)
